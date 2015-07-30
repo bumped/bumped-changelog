@@ -20,6 +20,7 @@
     "generate"
   ],
   "dependencies": {
+    "coffee-script": "~1.9.3",
     "conventional-changelog": "~0.2.1"
   },
   "devDependencies": {

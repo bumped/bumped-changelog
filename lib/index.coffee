@@ -16,7 +16,5 @@ module.exports = (bumped, plugin, cb) ->
   changelogStream.pipe outStream
 
   changelogStream.on 'error', cb
-  changelogStream.on 'end', ->
-    console.log 'end changelog!'
-    console.log arguments
+  changelogStream.on 'end', cb
 
