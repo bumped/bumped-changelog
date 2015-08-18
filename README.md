@@ -8,7 +8,7 @@
 [![NPM Status](http://img.shields.io/npm/dm/bumped-changelog.svg?style=flat-square)](https://www.npmjs.org/package/bumped-changelog)
 [![Gratipay](https://img.shields.io/gratipay/Kikobeats.svg?style=flat-square)](https://gratipay.com/~Kikobeats/)
 
-> Auto generate a changelog file in each bump.
+> Auto generates a changelog file in each bump.
 
 ## Install
 
