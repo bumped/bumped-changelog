@@ -2,7 +2,7 @@
   "name": "bumped-changelog",
   "description": "Auto generate a changelog file in each bump.",
   "homepage": "https://github.com/Bumped/bumped-changelog",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./index.js",
   "author": {
     "name": "Kiko Beats",
