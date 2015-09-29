@@ -8,7 +8,8 @@ options =
   overwrite: true
 
 module.exports = (bumped, plugin, cb) ->
-  outStream = fs.createWriteStream 'CHANGELOG.md'
+  filename = plugin.options.filename or 'CHANGELOG.md'
+  outStream = fs.createWriteStream filename
   changelogStream = changelog options
   changelogStream.pipe outStream
   changelogStream.on 'error', cb
