@@ -1,9 +1,21 @@
+<a name="0.2.0"></a>
+# 0.2.0 (2015-10-01)
+
+
+* Added `filename` option ([8c02690](https://github.com/bumped/bumped-changelog/commit/8c02690))
+* little refactor ([4ab5762](https://github.com/bumped/bumped-changelog/commit/4ab5762))
+* Merge pull request #1 from jcdenton/master ([ebc1710](https://github.com/bumped/bumped-changelog/commit/ebc1710))
+* Merge pull request #2 from bumped/refactor ([a03be70](https://github.com/bumped/bumped-changelog/commit/a03be70))
+
+
+
 <a name="0.1.3"></a>
 ## 0.1.3 (2015-08-19)
 
 
-* Update README.md ([7a24edc](https://github.com/bumped/bumped-changelog/commit/7a24edc))
+* 0.1.3 releases ([8305aea](https://github.com/bumped/bumped-changelog/commit/8305aea))
 * Update index.coffee ([95f24b0](https://github.com/bumped/bumped-changelog/commit/95f24b0))
+* Update README.md ([7a24edc](https://github.com/bumped/bumped-changelog/commit/7a24edc))
 * updated depedency ([b52d0cd](https://github.com/bumped/bumped-changelog/commit/b52d0cd))
 
 
