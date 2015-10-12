@@ -1,7 +1,16 @@
+<a name="0.2.2"></a>
+## 0.2.2 (2015-10-12)
+
+
+* updated dependencies ([c344c54](https://github.com/bumped/bumped-changelog/commit/c344c54))
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2015-10-12)
 
 
+* 0.2.1 releases ([01c0d18](https://github.com/bumped/bumped-changelog/commit/01c0d18))
 * updated dependency ([cbb36f2](https://github.com/bumped/bumped-changelog/commit/cbb36f2))
 
 
