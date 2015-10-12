@@ -6,7 +6,7 @@
 [![Dependency status](http://img.shields.io/david/Bumped/bumped-changelog.svg?style=flat-square)](https://david-dm.org/Bumped/bumped-changelog)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Bumped/bumped-changelog.svg?style=flat-square)](https://david-dm.org/Bumped/bumped-changelog#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/bumped-changelog.svg?style=flat-square)](https://www.npmjs.org/package/bumped-changelog)
-[![Gratipay](https://img.shields.io/gratipay/Kikobeats.svg?style=flat-square)](https://gratipay.com/~Kikobeats/)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > Auto generates a changelog file in each bump.
 
