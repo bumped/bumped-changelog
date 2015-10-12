@@ -1,7 +1,16 @@
+<a name="0.2.1"></a>
+## 0.2.1 (2015-10-12)
+
+
+* updated dependency ([cbb36f2](https://github.com/bumped/bumped-changelog/commit/cbb36f2))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2015-10-01)
 
 
+* 0.2.0 releases ([5779aec](https://github.com/bumped/bumped-changelog/commit/5779aec))
 * Added `filename` option ([8c02690](https://github.com/bumped/bumped-changelog/commit/8c02690))
 * little refactor ([4ab5762](https://github.com/bumped/bumped-changelog/commit/4ab5762))
 * Merge pull request #1 from jcdenton/master ([ebc1710](https://github.com/bumped/bumped-changelog/commit/ebc1710))
