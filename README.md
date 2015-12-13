@@ -1,5 +1,11 @@
 # bumped-changelog
 
+<h1 align="center">
+  <br>
+  <img src="http://i.imgur.com/DmMbFwL.png" alt="bumped">
+  <br>
+  <br>
+</h1>
 
 ![Last version](https://img.shields.io/github/tag/Bumped/bumped-changelog.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Bumped/bumped-changelog/master.svg?style=flat-square)](https://travis-ci.org/Bumped/bumped-changelog)
