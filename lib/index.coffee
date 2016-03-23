@@ -1,22 +1,36 @@
 'use strict'
 
-fs           = require 'fs'
+path         = require 'path'
+existsFile   = require 'exists-file'
 objectAssign = require 'object-assign'
-changelog    = require 'conventional-changelog'
+spawn        = require('child_process').spawn
 
 defaultOptions =
-  releaseCount: 0
-  overwrite: true
+  preset: 'angular'
   filename: 'CHANGELOG.md'
 
+parseOptions = (opts) ->
+  Object.keys(opts).map (opt) ->
+    value = opts[opt]
+    if value?
+      console.log
+      flagValue = if typeof value is 'boolean' then '' else "=#{opts[opt]}"
+      "--#{opt}#{flagValue}"
+
 module.exports = (bumped, plugin, cb) ->
+  changelog = path.resolve plugin.path, 'node_modules/.bin/conventional-changelog'
+  opts = objectAssign defaultOptions, plugin.options
+  isFirstTime = !existsFile opts.filename
 
-  options = objectAssign defaultOptions, plugin.options
-  outStream = fs.createWriteStream options.filename
+  opts.infile = opts.filename
+  delete opts.filename
+  opts['same-file'] = true
 
-  delete options.filename
-  changelogStream = changelog options
-  changelogStream.pipe outStream
+  if isFirstTime
+    opts['release-count'] = 0
+  else
+    opts.append = true
 
-  changelogStream.on 'error', cb
-  changelogStream.on 'end', cb
+  flags = parseOptions opts
+  ps = spawn(changelog, flags, stdio: 'inherit')
+  ps.on 'exit', cb
