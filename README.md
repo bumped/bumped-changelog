@@ -50,11 +50,6 @@ plugins:
 
 ## Options
 
-### preset
-
-Type: `String`
-Default: `angular`
-
 ### filename
 
 Type: `String`

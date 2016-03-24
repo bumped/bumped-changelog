@@ -6,7 +6,6 @@ objectAssign = require 'object-assign'
 spawn        = require('child_process').spawn
 
 defaultOptions =
-  preset: 'angular'
   filename: 'CHANGELOG.md'
 
 parseOptions = (opts) ->
