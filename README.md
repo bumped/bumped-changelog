@@ -24,25 +24,42 @@ You don't need to install it! Bumped automatically resolve the plugins dependenc
 npm install bumped-changelog -g
 ```
 
+## Usage
+
+The plugin is based in the [conventional-changelog](https://github.com/ajoslin/conventional-changelog) library.
+
+At the first time, if changelog file is not detected, then we create a changelog file with all the tag detected.
+
+Under incremental tags, we append the last tag into the file.
+
+Notes that at this points changelog looks like an auto generate commit historial: Write a good changelog consist in put human effor in describe what happens in each release!
+
 ## Configuration
 
-The plugin is based in the [conventional-changelog](https://github.com/ajoslin/conventional-changelog) library. Basically the plugin expose a interface for setup the library in the `.bumpedrc`:
-
-Just define the a minimal scaffold as the next piece of code:
+Declare a plugin step in your `.bumpedrc` like:
 
 ```CSON
-files: [
-  "package.json"
-  "bower.json"
-]
-
 plugins:
   postrelease:
     'Generating CHANGELOG file':
       plugin: 'bumped-changelog'
       options:
-        filename: 'CHANGELOG.md' # Optionally
+        preset: 'angular'
+        filename: 'CHANGELOG.md'
 ```
+
+## Options
+
+### preset
+
+Type: `String`
+Default: `angular`
+
+### filename
+
+Type: `String`
+Default: `CHANGELOG.md`
+
 
 ## License
 
