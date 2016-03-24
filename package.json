@@ -2,7 +2,7 @@
   "name": "bumped-changelog",
   "description": "Auto generate a changelog file in each bump.",
   "homepage": "https://github.com/Bumped/bumped-changelog",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "./index.js",
   "author": {
     "name": "Kiko Beats",
@@ -18,10 +18,10 @@
   },
   "keywords": [
     "bumped",
-    "plugin",
     "changelog",
     "conventional",
-    "generate"
+    "generate",
+    "plugin"
   ],
   "dependencies": {
     "coffee-script": "~1.10.0",

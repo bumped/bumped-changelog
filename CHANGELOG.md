@@ -1,3 +1,9 @@
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/bumped/bumped-changelog/compare/0.3.0...v0.3.1) (2016-03-24)
+
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/bumped/bumped-changelog/compare/0.2.2...v0.3.0) (2016-03-24)
 
