@@ -18,13 +18,14 @@
   },
   "keywords": [
     "bumped",
+    "plugin",
     "changelog",
     "conventional",
     "generate"
   ],
   "dependencies": {
     "coffee-script": "~1.10.0",
-    "conventional-changelog": "~1.1.0",
+    "conventional-changelog-cli": "~1.1.1",
     "exists-file": "~1.0.0",
     "object-assign": "~4.0.1"
   },
