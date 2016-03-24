@@ -28,8 +28,6 @@ module.exports = (bumped, plugin, cb) ->
 
   if isFirstTime
     opts['release-count'] = 0
-  else
-    opts.append = true
 
   flags = parseOptions opts
   ps = spawn(changelog, flags, stdio: 'inherit')
