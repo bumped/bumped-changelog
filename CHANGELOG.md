@@ -1,3 +1,10 @@
+<a name="0.3.2"></a>
+## 0.3.2 (2016-03-24)
+
+* Delete angular preset as default ([75535db](https://github.com/bumped/bumped-changelog/commit/75535db))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/bumped/bumped-changelog/compare/0.3.0...v0.3.1) (2016-03-24)
 
