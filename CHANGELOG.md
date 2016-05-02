@@ -1,3 +1,11 @@
+<a name="0.3.4"></a>
+## 0.3.4 (2016-05-02)
+
+* Optimization: use lodash.defualts instead of object-assign ([ab1ed9c](https://github.com/bumped/bumped-changelog/commit/ab1ed9c))
+* chore(package): update object-assign to version 4.1.0 ([28e73ad](https://github.com/bumped/bumped-changelog/commit/28e73ad))
+
+
+
 <a name="0.3.3"></a>
 ## 0.3.3 (2016-03-24)
 
