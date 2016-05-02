@@ -2,7 +2,7 @@
 
 path         = require 'path'
 existsFile   = require 'exists-file'
-objectAssign = require 'object-assign'
+defaults     = require 'lodash.defaults'
 spawn        = require('child_process').spawn
 
 defaultOptions =
@@ -18,7 +18,7 @@ parseOptions = (opts) ->
 
 module.exports = (bumped, plugin, cb) ->
   changelog = path.resolve plugin.path, 'node_modules/.bin/conventional-changelog'
-  opts = objectAssign defaultOptions, plugin.options
+  opts = defaults {}, plugin.options, defaultOptions
   isFirstTime = !existsFile opts.filename
 
   opts.infile = opts.filename
