@@ -1,3 +1,10 @@
+<a name="0.3.5"></a>
+## 0.3.5 (2016-05-03)
+
+* Upgrade exists-file to v2 ([99095d5](https://github.com/bumped/bumped-changelog/commit/99095d5))
+
+
+
 <a name="0.3.4"></a>
 ## 0.3.4 (2016-05-02)
 
