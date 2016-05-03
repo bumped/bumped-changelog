@@ -19,7 +19,7 @@ parseOptions = (opts) ->
 module.exports = (bumped, plugin, cb) ->
   changelog = path.resolve plugin.path, 'node_modules/.bin/conventional-changelog'
   opts = defaults {}, plugin.options, defaultOptions
-  isFirstTime = !existsFile opts.filename
+  isFirstTime = !existsFile.sync opts.filename
 
   opts.infile = opts.filename
   delete opts.filename
