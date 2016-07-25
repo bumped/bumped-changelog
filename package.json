@@ -27,7 +27,7 @@
     "coffee-script": "~1.10.0",
     "conventional-changelog-cli": "~1.2.0",
     "exists-file": "~2.1.0",
-    "lodash.defaults": "~4.0.1"
+    "lodash.defaults": "~4.1.0"
   },
   "devDependencies": {
     "mocha": "latest",
