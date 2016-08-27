@@ -1,24 +1,25 @@
 'use strict'
 
-path         = require 'path'
-existsFile   = require 'exists-file'
-defaults     = require 'lodash.defaults'
-spawn        = require('child_process').spawn
+spawn      = require('child_process').spawn
+defaults   = require 'lodash.defaults'
+existsFile = require 'exists-file'
+path       = require 'path'
 
-defaultOptions =
+conventionalChangelog = 'node_modules/.bin/conventional-changelog'
+
+DEFAULT =
   filename: 'CHANGELOG.md'
 
 parseOptions = (opts) ->
   Object.keys(opts).map (opt) ->
     value = opts[opt]
     if value?
-      console.log
       flagValue = if typeof value is 'boolean' then '' else "=#{opts[opt]}"
       "--#{opt}#{flagValue}"
 
 module.exports = (bumped, plugin, cb) ->
-  changelog = path.resolve plugin.path, 'node_modules/.bin/conventional-changelog'
-  opts = defaults {}, plugin.options, defaultOptions
+  changelog = path.resolve plugin.path, conventionalChangelog
+  opts = defaults {}, plugin.opts, DEFAULT
   isFirstTime = !existsFile.sync opts.filename
 
   opts.infile = opts.filename
