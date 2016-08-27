@@ -1,3 +1,14 @@
+<a name="0.3.6"></a>
+## 0.3.6 (2016-08-27)
+
+* Update interface ([3a84804](https://github.com/bumped/bumped-changelog/commit/3a84804))
+* chore(package): update conventional-changelog-cli to version 1.2.0 ([c6254fd](https://github.com/bumped/bumped-changelog/commit/c6254fd))
+* chore(package): update exists-file to version 2.1.0 ([a8f6756](https://github.com/bumped/bumped-changelog/commit/a8f6756))
+* chore(package): update lodash.defaults to version 4.1.0 ([a39e642](https://github.com/bumped/bumped-changelog/commit/a39e642))
+* chore(package): update lodash.defaults to version 4.2.0 ([d0c7496](https://github.com/bumped/bumped-changelog/commit/d0c7496))
+
+
+
 <a name="0.3.5"></a>
 ## 0.3.5 (2016-05-03)
 
