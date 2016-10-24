@@ -1,6 +1,6 @@
 'use strict'
 
-spawn      = require('cross-spawn')
+spawn      = require 'cross-spawn'
 defaults   = require 'lodash.defaults'
 existsFile = require 'exists-file'
 path       = require 'path'
