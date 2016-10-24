@@ -1,6 +1,6 @@
 'use strict'
 
-spawn      = require('child_process').spawn
+spawn      = require('cross-spawn')
 defaults   = require 'lodash.defaults'
 existsFile = require 'exists-file'
 path       = require 'path'
