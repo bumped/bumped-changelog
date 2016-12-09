@@ -1,3 +1,10 @@
+<a name="0.3.8"></a>
+## 0.3.8 (2016-12-09)
+
+* Avoid symbolic link ([d1420ae](https://github.com/bumped/bumped-changelog/commit/d1420ae))
+
+
+
 <a name="0.3.7"></a>
 ## 0.3.7 (2016-12-09)
 
