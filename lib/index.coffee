@@ -19,7 +19,7 @@ parseOptions = (opts) ->
 
 module.exports = (bumped, plugin, cb) ->
   changelog = path.resolve plugin.path, conventionalChangelog
-  opts = defaults {}, plugin.opts, DEFAULT
+  opts = defaults {}, plugin.opts.options, DEFAULT
   isFirstTime = !existsFile.sync opts.filename
 
   opts.infile = opts.filename
