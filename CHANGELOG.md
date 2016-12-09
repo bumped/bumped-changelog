@@ -1,3 +1,18 @@
+<a name="0.3.7"></a>
+## 0.3.7 (2016-12-09)
+
+* fix(package): fix plugin options not being passed as flags to the conventional-changelog-cli ([619bde9](https://github.com/bumped/bumped-changelog/commit/619bde9))
+* fix(package): update coffee-script to version 1.12.0 ([c450c12](https://github.com/bumped/bumped-changelog/commit/c450c12))
+* chore: drop support for Node.js 0.10 ([3209825](https://github.com/bumped/bumped-changelog/commit/3209825))
+* chore(package): update coffee-script to version 1.11.0 ([6a76312](https://github.com/bumped/bumped-changelog/commit/6a76312))
+* chore(package): update exists-file to version 3.0.0 ([563ba7a](https://github.com/bumped/bumped-changelog/commit/563ba7a))
+
+
+### BREAKING CHANGE
+
+* This module no longer supports Node.js 0.10
+
+
 <a name="0.3.6"></a>
 ## 0.3.6 (2016-08-27)
 
