@@ -5,7 +5,7 @@ defaults   = require 'lodash.defaults'
 existsFile = require 'exists-file'
 path       = require 'path'
 
-conventionalChangelog = 'node_modules/.bin/conventional-changelog'
+conventionalChangelog = 'node_modules/conventional-changelog-cli/cli.js'
 
 DEFAULT =
   filename: 'CHANGELOG.md'
