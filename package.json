@@ -30,9 +30,6 @@
     "exists-file": "~3.0.0",
     "lodash.defaults": "~4.2.0"
   },
-  "peerDependencies": {
-    "conventional-changelog-cli": "~1.0"
-  },
   "devDependencies": {
     "mocha": "latest",
     "should": "latest"
