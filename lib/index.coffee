@@ -5,7 +5,7 @@ defaults   = require 'lodash.defaults'
 existsFile = require 'exists-file'
 path       = require 'path'
 
-conventionalChangelog = 'node_modules/conventional-changelog-cli/cli.js'
+conventionalChangelog = 'conventional-changelog-cli/cli.js'
 
 DEFAULT =
   filename: 'CHANGELOG.md'
@@ -18,7 +18,7 @@ parseOptions = (opts) ->
       "--#{opt}#{flagValue}"
 
 module.exports = (bumped, plugin, cb) ->
-  changelog = path.resolve plugin.path, conventionalChangelog
+  changelog = path.resolve plugin.path, '..', conventionalChangelog
   opts = defaults {}, plugin.opts.options, DEFAULT
   isFirstTime = !existsFile.sync opts.filename
 
