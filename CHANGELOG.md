@@ -1,3 +1,18 @@
+<a name="0.3.9"></a>
+## 0.3.9 (2017-05-03)
+
+* Remove unnecessary files ([bb86bb1](https://github.com/bumped/bumped-changelog/commit/bb86bb1))
+* Update package.json ([4270411](https://github.com/bumped/bumped-changelog/commit/4270411))
+* chore(dependency): fix the coffee-script dependency version ([2acdd1e](https://github.com/bumped/bumped-changelog/commit/2acdd1e))
+* chore(package): revert the version bump to base and let author do the appropriate bump ([df8b5f4](https://github.com/bumped/bumped-changelog/commit/df8b5f4))
+* chore(package): update conventional-changelog-cli to version 1.3.1 ([82aad9e](https://github.com/bumped/bumped-changelog/commit/82aad9e))
+* chore(package): update dependencies ([1b2a6ec](https://github.com/bumped/bumped-changelog/commit/1b2a6ec))
+* fix(pathing): use require.resolve to get the absolute path to conventional-changelog-cli/cli.js ([be46218](https://github.com/bumped/bumped-changelog/commit/be46218))
+* fix(windows): fix the conventional-changelog-cli pathing issue on windows by using peerDependencies ([4076c73](https://github.com/bumped/bumped-changelog/commit/4076c73))
+* fix(windows): use cross-spawn to fix the 'Error: spawn UNKNOWN' error on Windows ([43f7d08](https://github.com/bumped/bumped-changelog/commit/43f7d08))
+
+
+
 <a name="0.3.8"></a>
 ## 0.3.8 (2016-12-09)
 
