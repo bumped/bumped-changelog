@@ -1,11 +1,11 @@
 'use strict'
 
-spawn      = require('child_process').spawn
+spawn      = require 'cross-spawn'
 defaults   = require 'lodash.defaults'
 existsFile = require 'exists-file'
 path       = require 'path'
 
-conventionalChangelog = 'node_modules/conventional-changelog-cli/cli.js'
+conventionalChangelog = require.resolve 'conventional-changelog-cli/cli.js'
 
 DEFAULT =
   filename: 'CHANGELOG.md'
@@ -18,7 +18,7 @@ parseOptions = (opts) ->
       "--#{opt}#{flagValue}"
 
 module.exports = (bumped, plugin, cb) ->
-  changelog = path.resolve plugin.path, conventionalChangelog
+  changelog = conventionalChangelog
   opts = defaults {}, plugin.opts.options, DEFAULT
   isFirstTime = !existsFile.sync opts.filename
 
