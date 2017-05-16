@@ -1,3 +1,11 @@
+<a name="0.3.10"></a>
+## 0.3.10 (2017-05-16)
+
+* Update deps ([7008437](https://github.com/bumped/bumped-changelog/commit/7008437))
+* Update package.json ([48a0912](https://github.com/bumped/bumped-changelog/commit/48a0912))
+
+
+
 <a name="0.3.9"></a>
 ## 0.3.9 (2017-05-03)
 
