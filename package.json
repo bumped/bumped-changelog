@@ -24,10 +24,10 @@
     "plugin"
   ],
   "dependencies": {
-    "coffeescript": "~1.12.6",
-    "conventional-changelog-cli": "~2.0.0",
-    "cross-spawn": "~6.0.0",
-    "exists-file": "~3.0.1",
+    "coffeescript": "~2.3.2",
+    "conventional-changelog-cli": "~2.0.12",
+    "cross-spawn": "~6.0.5",
+    "exists-file": "~3.0.2",
     "lodash.defaults": "~4.2.0"
   },
   "devDependencies": {
