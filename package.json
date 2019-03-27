@@ -16,6 +16,10 @@
   "bugs": {
     "url": "https://github.com/Bumped/bumped-changelog/issues"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "keywords": [
     "bumped",
     "changelog",
