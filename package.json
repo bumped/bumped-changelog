@@ -2,7 +2,7 @@
   "name": "bumped-changelog",
   "description": "Auto generate a changelog file in each bump.",
   "homepage": "https://github.com/Bumped/bumped-changelog",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "main": "./index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -16,10 +16,6 @@
   "bugs": {
     "url": "https://github.com/Bumped/bumped-changelog/issues"
   },
-  "files": [
-    "lib",
-    "index.js"
-  ],
   "keywords": [
     "bumped",
     "changelog",
@@ -41,6 +37,10 @@
   "engines": {
     "node": ">= 4"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "test": "sh test/test.sh"
   },

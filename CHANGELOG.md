@@ -1,3 +1,15 @@
+<a name="0.3.11"></a>
+## 0.3.11 (2019-03-27)
+
+* Add files meta field ([5eab211](https://github.com/bumped/bumped-changelog/commit/5eab211))
+* Migrate coffeescript ([991af2d](https://github.com/bumped/bumped-changelog/commit/991af2d))
+* Update .travis.yml ([848a026](https://github.com/bumped/bumped-changelog/commit/848a026))
+* update dependencies ([774311d](https://github.com/bumped/bumped-changelog/commit/774311d))
+* fix(package): update conventional-changelog-cli to version 2.0.0 ([6961a0b](https://github.com/bumped/bumped-changelog/commit/6961a0b))
+* fix(package): update cross-spawn to version 6.0.0 ([0a8c9a1](https://github.com/bumped/bumped-changelog/commit/0a8c9a1))
+
+
+
 <a name="0.3.10"></a>
 ## 0.3.10 (2017-05-16)
 
