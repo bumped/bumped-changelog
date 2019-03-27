@@ -14,7 +14,7 @@ echo
 run() {
   "$PWD"/node_modules/.bin/mocha \
   -b \
-  --compilers coffee:coffee-script/register \
+  --require coffeescript/register \
   --require should \
   --reporter spec \
   --timeout 120000 \
