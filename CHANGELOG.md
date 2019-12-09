@@ -1,3 +1,10 @@
+## <small>0.3.13 (2019-12-09)</small>
+
+* build: update dependencies ([dbaad35](https://github.com/bumped/bumped-changelog/commit/dbaad35))
+* fix(package): update cross-spawn to version 7.0.0 ([293e9af](https://github.com/bumped/bumped-changelog/commit/293e9af))
+
+
+
 <a name="0.3.12"></a>
 ## 0.3.12 (2019-05-23)
 

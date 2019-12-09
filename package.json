@@ -2,7 +2,7 @@
   "name": "bumped-changelog",
   "description": "Auto generate a changelog file in each bump.",
   "homepage": "https://github.com/Bumped/bumped-changelog",
-  "version": "0.3.12",
+  "version": "0.3.13",
   "main": "./index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
