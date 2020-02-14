@@ -1,3 +1,9 @@
+## 0.4.0 (2020-02-14)
+
+* fix(package): update coffeescript to version 2.5.0 ([a7f21f8](https://github.com/bumped/bumped-changelog/commit/a7f21f8))
+
+
+
 ## <small>0.3.13 (2019-12-09)</small>
 
 * build: update dependencies ([dbaad35](https://github.com/bumped/bumped-changelog/commit/dbaad35))
