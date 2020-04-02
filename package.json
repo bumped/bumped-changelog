@@ -24,8 +24,8 @@
     "plugin"
   ],
   "dependencies": {
-    "coffeescript": "~2.5.0",
-    "conventional-changelog-cli": "~2.0.28",
+    "coffeescript": "~2.5.1",
+    "conventional-changelog-cli": "~2.0.31",
     "cross-spawn": "~7.0.1",
     "exists-file": "~3.0.2",
     "lodash.defaults": "~4.2.0"
