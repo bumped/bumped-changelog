@@ -24,7 +24,7 @@
     "plugin"
   ],
   "dependencies": {
-    "coffeescript": "~2.6.0",
+    "coffeescript": "~2.7.0",
     "conventional-changelog-cli": "~2.2.2",
     "cross-spawn": "~7.0.3",
     "exists-file": "~3.0.2",
